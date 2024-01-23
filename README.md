@@ -45,23 +45,25 @@ Visit the [official Splunk website](https://www.splunk.com/) and navigate to the
 
 ### Step 2: Install Splunk
 
-1. Locate the downloaded Splunk installer (e.g., `splunk-<version>-<build>-Windows-x86_64.msi`) and double-click to start the installation.
+1. Locate the downloaded Splunk installer and double-click to start the installation.
 
 2. The Splunk Setup Wizard will open. Click "Next" to proceed.
 
 3. Read and accept the license agreement. Click "Next."
+    ![Local Image](images/sample-image.jpg)
+   
+5. Choose the installation type. For a typical installation, select "Typical." Click "Next."
 
-4. Choose the installation type. For a typical installation, select "Typical." Click "Next."
+6. Specify the destination folder for Splunk installation. The default is usually fine. Click "Next."
+ ![Local Image](images/sample-image.jpg)
 
-5. Specify the destination folder for Splunk installation. The default is usually fine. Click "Next."
+8. Choose the components to install. For a standard installation, leave all components selected. Click "Next."
 
-6. Choose the components to install. For a standard installation, leave all components selected. Click "Next."
+9. Configure the Splunk instance by setting a password for the admin account. Enter the desired password and click "Next."
 
-7. Configure the Splunk instance by setting a password for the admin account. Enter the desired password and click "Next."
+10. Choose whether to start Splunk at boot. Select your preference and click "Install."
 
-8. Choose whether to start Splunk at boot. Select your preference and click "Install."
-
-9. The installation will proceed. Once completed, click "Finish."
+11. The installation will proceed. Once completed, click "Finish."
 
 ### Step 3: Start Splunk
 
